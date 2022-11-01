@@ -53,3 +53,8 @@ insert into tbUsuarios(nome,senha)values('Meliodas.silva','654321');
 select * from tbFuncionarios;
 select * from tbUsuarios;
 
+-- alterando os registros das tabelas
+update tbUsuarios set senha = '785414565' where codusu = 1;
+
+select * from tbUsuarios;
+
